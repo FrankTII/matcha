@@ -58,12 +58,15 @@ body {
   }
 
   .navbar{
-    /* background-color: aquamarine; */
+    background-color: aquamarine;
     width: 70%;
     text-align: left;
-    color: #025157;
+    color:  #025157;
     font-weight: 500;
-    
+    text-decoration: none;
+    border-color: black;
+    border: 20px;
+
 
   }
 
@@ -71,11 +74,14 @@ body {
     display: inline;
     margin: 0 25px;
     text-decoration: none;
-    
+    color:  #025157;
+    float: left;
+    border: 10px;
+  
   }
 
   .actions{
-    /* background-color:beige; */
+    background-color:beige;
 
     width: 15%;
     text-align: left;
