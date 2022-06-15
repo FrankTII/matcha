@@ -58,7 +58,7 @@ body {
   }
 
   .navbar{
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     width: 70%;
     text-align: left;
     color:  #025157;
@@ -81,7 +81,7 @@ body {
   }
 
   .actions{
-    background-color:beige;
+    /* background-color:beige; */
 
     width: 15%;
     text-align: left;
