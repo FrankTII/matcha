@@ -1,6 +1,30 @@
 body {
     background-color: rgb(233, 232, 207);
   }
+
+  a {
+    style
+  }
+
+  h1 {
+    color: #025157;
+    text-align: center;
+  }
+
+  p {
+    color: #8b8b8bcc;
+    font-family: Verdana;
+    font-size: 20px;
+  }
+
+  button {
+    color: #fff;
+    background-color: #67b54b;
+    padding: 12px 14px;
+    border: none;
+    border-radius: 5px;
+
+  }
   
   .header {
     /* margin-top: 40px;
@@ -8,19 +32,10 @@ body {
     margin-right: 20px; */
     margin: 40px 20px 0px;
     font-size: 0;
+    font-family: sans-serif;
+    height: 45px;
   }
 
-  h1 {
-    color: #025157;
-    text-align: center;
-  }
-  
-  p {
-    color: #8b8b8bcc;
-    font-family: Verdana;
-    font-size: 20px;
-  }
-  
   li  {
     display:inline;
   }
@@ -32,40 +47,40 @@ body {
     height: 100%;
     vertical-align: middle;
   }
+  .logo {
+    width: 15%;
+  }
 
   .logo > img {
-    background-color: aqua;
+  /*  background-color: aqua;*/
     width: 15%;
-    display: inline
+    /*display: inline*/
   }
 
   .navbar{
-    background-color: aquamarine;
-    width: 75%;
-    text-align: center;
+    /* background-color: aquamarine; */
+    width: 70%;
+    text-align: left;
     color: #025157;
     font-weight: 500;
+    padding-right: 25px;
 
   }
 
   .actions{
-    background-color:beige;
+    /* background-color:beige; */
 
     width: 15%;
-    text-align: right;
+    text-align: left;
     font-size: 14px;
     font-weight: 600;
+    padding-right: 10px;
+    color: #67b54b;
 
   }
-  button {
-    color: #fff;
-    background-color: #025157;
 
-  }
-  
+
   .main {
     margin: 140px;
     text-align: center;
   }
-
-  
