@@ -1,7 +1,15 @@
 body {
-    background-color: rgb(215, 136, 136);
+    background-color: rgb(233, 232, 207);
   }
   
+  .header {
+    /* margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px; */
+    margin: 40px 20px 0px;
+    font-size: 0;
+  }
+
   h1 {
     color: #025157;
     text-align: center;
@@ -13,9 +21,51 @@ body {
     font-size: 20px;
   }
   
+  li  {
+    display:inline;
+  }
+
+  .header > * {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 45px;
+    height: 100%;
+    vertical-align: middle;
+  }
+
+  .logo > img {
+    background-color: aqua;
+    width: 15%;
+    display: inline
+  }
+
+  .navbar{
+    background-color: aquamarine;
+    width: 75%;
+    text-align: center;
+    color: #025157;
+    font-weight: 500;
+
+  }
+
+  .actions{
+    background-color:beige;
+
+    width: 15%;
+    text-align: right;
+    font-size: 14px;
+    font-weight: 600;
+
+  }
   button {
     color: #fff;
     background-color: #025157;
+
   }
   
+  .main {
+    margin: 140px;
+    text-align: center;
+  }
+
   
