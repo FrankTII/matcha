@@ -83,8 +83,8 @@ body {
   .actions{
     /* background-color:beige; */
 
-    width: 15%;
-    /* min-width: 15%; */
+    /* width: 15%; */
+    min-width: 15%;
     text-align: left;
     font-size: 14px;
     font-weight: 600;
