@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(233, 232, 207);
+    background-color: rgb(207, 224, 233);
     font-family: 'Alegreya', serif;  
     height: 45px;
 
@@ -50,6 +50,7 @@ body {
     height: 100%;
     vertical-align: middle;
   }
+
   .logo {
     width: 15%;
   }
@@ -87,7 +88,8 @@ body {
     /* background-color:beige; */
 
     /* width: 15%; */
-    min-width: 15%;
+    /* min-width: 15%; */
+    /* width: 50px; */
     text-align: left;
     font-size: 14px;
     font-weight: 600;
