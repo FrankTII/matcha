@@ -119,3 +119,22 @@ body {
     margin: 140px;
     text-align: center;
   }
+
+  .seccion {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    }
+  .articulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+  }
+  .columna h2{
+    color: #025157;
+    font-family: Verdana;
+  }
+  .columna p{
+    color: #343434;
+  }
