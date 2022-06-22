@@ -138,3 +138,7 @@ body {
   .columna p{
     color: #343434;
   }
+.features {
+  display: grid;
+  grid-template-columns: 1fr, 1fr;
+}
