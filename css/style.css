@@ -48,7 +48,7 @@ li{
 
 .menuNavegacion{
     width: 70%;
-    text-align: center;
+    text-align: left;
     color: #025157;
     font-weight: 500;
 }
@@ -56,7 +56,7 @@ li{
 
 .accionesDUsuario{
     width: 15%;
-    text-align: right;
+    text-align: left;
     font-size: 14px;
     font-weight: 600;
 }
