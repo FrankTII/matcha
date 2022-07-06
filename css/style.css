@@ -15,10 +15,7 @@ h1 {
     color:#8b8b8bcc;
 }
 
-button {
-    color: #fff;
-    background-color: #025157;
-}
+
 
 li{
     display: inline;
@@ -32,6 +29,8 @@ li{
     margin-right: 20px; */
     margin: 40px  20px  0;
     font-size: 0;
+    font-family: sans-serif;
+    height: 45px;
 }
 
 .header > *{
@@ -48,19 +47,46 @@ li{
 
 .menuNavegacion{
     width: 70%;
-    text-align: left;
+    text-align: center;
     color: #025157;
     font-weight: 500;
+}
+
+.itemNavegacion{
+    display: inline;
+    /* margin: 0 25px; */
+    margin-left: 25px;
+    margin-right: 25px;
 }
 
 
 .accionesDUsuario{
     width: 15%;
-    text-align: left;
+    text-align: right;
     font-size: 14px;
     font-weight: 600;
 }
 
+.accionesDUsuario > *{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.accionesDUsuario a{
+    color: #67b54b;
+}
+
+.accionesDUsuario  button {
+    color: #fff;
+    background-color: #025157;
+    /* padding: 12px 14px 12px 14px; */
+    padding-left: 14px;
+    padding-top: 12px;
+    padding-right: 14px;
+    padding-bottom: 12px;
+    border:0;
+    border-radius: 5px;
+}
 .principalArea{
     margin-top: 300px;
     text-align: center;
