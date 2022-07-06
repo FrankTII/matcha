@@ -19,7 +19,9 @@ button {
     background-color: #025157;
 }
 
-.header {
+.header > *{
+    /* "> *" esto significa a todos los hijos directos de la etiqueta header. 
+    A todos los hijos contenidos dentro de header */
     margin-top: 40px;
     margin-left: 20px;
     margin-right: 20px;
