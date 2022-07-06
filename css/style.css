@@ -19,9 +19,14 @@ button {
     background-color: #025157;
 }
 
-.header{
+.header {
     margin-top: 40px;
     margin-left: 20px;
     margin-right: 20px;
     /* margin: 40px  20px  0 20px; */
+    display: inline-block;
+}
+
+li{
+    display: inline;
 }
