@@ -82,10 +82,12 @@ body {
     text-decoration: none;
     text-shadow: #025157 1px 1px 2px;
     transition: color 0.3s ease-in-out;
+    transition: font-size 0.3 linear all;
 
     /* Agrega este selector para activar la transición en el evento :hover */
     &:hover {
       color: #67b54b;
+      font-size: 35px;
     }
   }
 }
