@@ -1,6 +1,9 @@
 body{
     margin :0;
     background-color: #fffbf7;
+    /* font-family: 'Alegreya', serif; */
+    font-family: 'Finlandica', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
 
 }
 h1 {
@@ -19,6 +22,14 @@ h1 {
 
 li{
     display: inline;
+}
+
+.postwork1{
+    /* : center; */
+    /* margin: 0 50%; */
+    margin-left: 27%;
+    margin-right: auto;
+    height: 500px;
 }
 .header {
     /* width: 100%; */
