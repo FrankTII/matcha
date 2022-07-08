@@ -376,7 +376,10 @@ li{
     h1 {
         font-size: 30px;
       }
-
+      .principalArea {
+        margin-top: 130px;
+      }
+      
   }
   
   /** dispositivos pequeños en vista landscape (horizontal) */
