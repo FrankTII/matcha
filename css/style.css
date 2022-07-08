@@ -65,6 +65,15 @@ li{
     margin: auto 20%;
     height: 700px;
 }
+
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fffbf7;
+    
+}
 .header {
     /* width: 100%; */
     /* "> *" esto significa a todos los hijos directos de la etiqueta header. 
@@ -133,7 +142,7 @@ li{
     border-radius: 5px;
 }
 .principalArea{
-    margin-top: 300px;
+    margin-top: 285px;
     text-align: center;
 }
  
@@ -158,4 +167,7 @@ li{
     display: flex;
     flex-direction: row;
     align-items: center;
+}
+.fixed-header {
+    position: fixed;
 }
