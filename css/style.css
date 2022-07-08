@@ -379,6 +379,13 @@ li{
       .principalArea {
         margin-top: 130px;
       }
+      .banner > img {
+        width: 100%;
+      }
+
+      .imagen_postwork1 > img{
+        height: 100px;
+      }
       
   }
   
