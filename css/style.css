@@ -337,8 +337,8 @@ li{
     /* max-width:900px; */
     display: grid;
     /* height: 500px; */
-    grid-template-columns: repeat(4,1fr) ;
-    
+    grid-template-columns: repeat(4,1fr);
+    /* gap: 5px;     */
   }
   .howDoesMatchaWork .feature-grid-card {
     margin-bottom: 30px;
