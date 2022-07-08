@@ -7,18 +7,53 @@ body{
 
 }
 h1 {
+    font-family: 'Roboto', sans-serif; 
+    font-size: 50px;
     color: #025157;
 }
 
+
 .texto{
-        color:#46484c;
+        color:#46484c
+        line-height: 1.5;
+    margin-bottom: 20px;
 }
 
 .promo{
     color:#8b8b8bcc;
 }
 
-
+.publishing > h2{
+    font-family: 'Roboto', sans-serif;  
+    font-size: 40px;
+    line-height: 48px;
+    color: #025157;
+}
+.publishing > p{
+    color: #343434;
+    /* font-size: 16px; */
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+.publish > form{
+    display: flex;
+}
+.publish > form p {
+    color:#025157; 
+    margin-right: 18px;
+}
+/*Sesion 3 reto3 Agragando seccion, color y formulario a lado del video*/
+button {
+    color: #fff;
+    background-color: #025157;
+    /* padding: 12px 14px 12px 14px; */
+    padding-left: 14px;
+    padding-top: 12px;
+    padding-right: 14px;
+    padding-bottom: 12px;
+    border:0;
+    border-radius: 5px;
+}
 
 li{
     display: inline;
