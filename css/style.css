@@ -137,3 +137,10 @@ li{
     margin-top: 300px;
     text-align: center;
 }
+
+.video{
+    display:flex ;
+    width: 70%;
+    margin: 100px auto;
+    align-items:center; 
+}
