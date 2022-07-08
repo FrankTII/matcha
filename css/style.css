@@ -62,9 +62,8 @@ li{
 .postwork1{
     /* : center; */
     /* margin: 0 50%; */
-    margin-left: 27%;
-    margin-right: auto;
-    height: 500px;
+    margin: auto 20%;
+    height: 700px;
 }
 .header {
     /* width: 100%; */
@@ -143,4 +142,20 @@ li{
     width: 70%;
     margin: 100px auto;
     align-items:center; 
+}
+
+.video-en-col{
+    display: flex;
+    flex-direction: column;
+     align-items: center;
+   
+}
+.video-en-col img {
+    width: 50px;
+    margin-top: 10px;
+}
+.contenedor-arrow1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
