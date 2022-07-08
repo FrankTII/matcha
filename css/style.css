@@ -249,7 +249,7 @@ li{
     color: #8b8b8bcc;
 }
 .text-card1 > button {
-    width: 100%;
+    width: 500px;
 }
 
 /*Sesion 4 GRIDS*/
@@ -323,3 +323,46 @@ li{
     margin-top: 0;
     height: 100%;
   }
+
+  .howDoesMatchaWork{
+
+
+
+  }
+
+  .howDMW-text{
+    text-align: center;
+  }
+  .howDMW-grid{
+    /* max-width:900px; */
+    display: grid;
+    /* height: 500px; */
+    grid-template-columns: repeat(4,1fr) ;
+    
+  }
+  .howDoesMatchaWork .feature-grid-card {
+    margin-bottom: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 10px;
+    background-color: #fff;
+    border: 1px solid #dadada;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  .howDoesMatchaWork .feature-grid-card .feature-grid-content {
+    padding: 30px 20px 40px 40px;
+    flex: 2;
+  }
+  .howDoesMatchaWork h3{
+    color: #025157;
+  }
+  .howDoesMatchaWork img{
+   
+  }
+
+  .howDoesMatchaWork a{
+    text-decoration: none;
+    color: #025157;
+  }
+
