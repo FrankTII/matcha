@@ -387,6 +387,18 @@ li{
         height: 100px;
       }
       
+      .publishing > form {
+        flex-direction: column;
+      }
+    
+      .publishing > form > div {
+        height: 50px;
+        margin-top: 10px;
+      }
+    
+      .publishing > form > div > input {
+        width: 65%;
+      }
   }
   
   /** dispositivos pequeños en vista landscape (horizontal) */
