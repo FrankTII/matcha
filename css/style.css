@@ -6,12 +6,26 @@ body{
     /* font-family: 'Roboto', sans-serif; */
 
 }
-h1 {
+h1, h2 {
     font-family: 'Roboto', sans-serif; 
-    font-size: 50px;
+    
     color: #025157;
 }
 
+h1{
+    font-size: 50px;
+
+}
+
+h2{
+    font-size: 40px;
+    line-height: 48px;
+}
+/* 
+p{
+    line-height: 1.5;
+    font-size: 16px;
+} */
 
 .texto{
         color:#46484c
@@ -21,6 +35,10 @@ h1 {
 
 .promo{
     color:#8b8b8bcc;
+}
+
+.publishing {
+    margin-top: 0;
 }
 
 .publishing > h2{
@@ -62,6 +80,7 @@ li{
 .postwork1{
     /* : center; */
     /* margin: 0 50%; */
+    max-width: 1200px ;
     margin: auto 20%;
     height: 700px;
 }
@@ -150,7 +169,8 @@ li{
     display:flex ;
     width: 70%;
     margin: 100px auto;
-    align-items:center; 
+    /* align-items:center;  */
+    justify-content: center;
 }
 
 .video-en-col{
@@ -170,4 +190,64 @@ li{
 }
 .fixed-header {
     position: fixed;
+}
+
+.seccion-con-tarjeta-a-la-derecha{
+    background-color: #a1d683;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.texto-seccion{
+
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin: auto 25px;
+
+}
+
+/* .texto-seccion > p {
+    margin: ;
+} */
+.rectangulo-WhoUses{
+    color: #fff;
+    background-color: #025157;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    width: 33%;
+    border-radius: 5px;
+}
+
+.lista-matcha-users{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.li-matcha-users{
+    margin: 0 25px;
+}
+
+.card1{
+    border-radius: 5px;
+    background-color: #fff;
+    color: #343434;
+    margin-bottom: 80px;
+    margin-right: 200px;
+}
+.text-card1 > p {
+    margin: 0 25px;
+    padding: 10px;
+}
+
+.text-color2-in-card1{
+    color: #8b8b8bcc;
+}
+.text-card1 > button {
+    width: 100%;
 }
